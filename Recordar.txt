@@ -1,0 +1,5 @@
+Recordar: 
+	getChild(i) retorna tots els fills independentment si han sigut aquests juntats per |
+
+	Es pot accedir a una cosa de un node amb getChild(i), expr(i)  (en tot aixo caldra fer visit()), i a token es fa amb getText sense el visit
+	visitChildren(ctx) visita lunic fill. ctx.getChildren() retorna llista de ctx children
